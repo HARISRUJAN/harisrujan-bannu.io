@@ -8,123 +8,96 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <style>
         body {
-            background: linear-gradient(135deg, #2b2e4a, #e84545);
-            color: #fff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        .navbar {
-            background-color: rgba(0,0,0,0.6);
-        }
-        .landing {
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
-        .img-fluid {
-            border: 5px solid #fff;
-            box-shadow: 0 4px 30px rgba(0,0,0,0.5);
-        }
-        h1, h2, h3, h4 {
-            color: #fce38a;
-        }
-        .progress {
-            background-color: #ddd;
-        }
-        .progress-bar {
-            background: linear-gradient(45deg, #f38181, #fce38a);
-        }
-        .tech-icon {
-            width: 50px;
-            height: 50px;
-            margin-bottom: 10px;
-        }
-        .icon-box {
-            text-align: center;
-            background-color: rgba(255,255,255,0.1);
-            border-radius: 20px;
-            padding: 20px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            transition: transform 0.3s ease;
-        }
-        .icon-box:hover {
-            transform: scale(1.05);
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
         }
         .section {
             padding: 50px 0;
         }
+        h1, h2, h3, h4 {
+            color: #f8f9fa;
+        }
+        .icon-box, .desc {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Harisrujan</a>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="mailto:harisrujan2605@gmail.com">Email</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/harisrujan2605/">LinkedIn</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://github.com/HARISRUJAN">GitHub</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/14GrHvcnMfAQdPamGQ8mPqFia5jCIieqh/view?usp=sharing">Resume</a></li>
-        </ul>
-    </nav>
+    <!-- Existing Content -->
 
-    <div class="container landing text-center">
-        <img class="img-fluid rounded-circle mb-4" src="./bannu.jpeg" alt="Profile">
-        <h1 class="display-4">Hi, I'm Harisrujan 👋</h1>
-        <p class="lead">Data Science Enthusiast | AI & NLP Explorer | Community Builder</p>
-    </div>
-
-    <div class="container section">
-        <h2 class="text-center mb-4">Skills</h2>
-        <div class="row">
-            <div class="col-md-4 icon-box">
-                <img src="https://raw.githubusercontent.com/github/explore/master/topics/python/python.png" class="tech-icon">
-                <h4>Python, ML, NLP</h4>
-                <p>Scikit-learn, SpaCy, TensorFlow, Pandas, NumPy, Gensim, Streamlit</p>
-            </div>
-            <div class="col-md-4 icon-box">
-                <img src="https://raw.githubusercontent.com/github/explore/master/topics/sql/sql.png" class="tech-icon">
-                <h4>SQL & Data</h4>
-                <p>Data Wrangling, Preprocessing, Exploratory Data Analysis</p>
-            </div>
-            <div class="col-md-4 icon-box">
-                <img src="https://raw.githubusercontent.com/github/explore/master/topics/aws/aws.png" class="tech-icon">
-                <h4>Cloud & Tools</h4>
-                <p>AWS, Git, Jira, Confluence, Bash, Agile, Streamlit</p>
+    <!-- Additional Skills -->
+    <section class="section">
+        <div class="container">
+            <h2 class="display-4 text-center">Additional Skills</h2>
+            <div class="row">
+                <div class="col-md-4 icon-box">
+                    <h4>Cloud Platforms</h4>
+                    <p>AWS, Azure (Databricks, Datalake)</p>
+                </div>
+                <div class="col-md-4 icon-box">
+                    <h4>Programming Tools</h4>
+                    <p>R, MATLAB, Git, Bash, Jira, Confluence</p>
+                </div>
+                <div class="col-md-4 icon-box">
+                    <h4>Languages</h4>
+                    <p>English (C2), Finnish (A1-A2)</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container section">
-        <h2 class="text-center mb-4">Experience</h2>
-        <ul>
-            <li><strong>Thesis Worker</strong> at GPT Lab, Tampere University – Built AI agents to validate requirements (LLMs, RAG, Digital Twins). <em>Nov 2024 – Present</em></li>
-            <li><strong>Data Science Engineer</strong> at Ignitz Solutions – NLP-based automation and job matching. <em>Jan 2022 – Jul 2023</em></li>
-        </ul>
-    </div>
+    <!-- New Experience -->
+    <section class="section">
+        <div class="container">
+            <h2 class="display-4 text-center">Recent Experience</h2>
+            <div class="desc">
+                <h4>Thesis Worker – GPT Lab, Tampere University</h4>
+                <p>Built a multi-agent validation system using LLMs, RAG, and Digital Twins reducing requirement ambiguity by 60%+. Achieved 85% validation accuracy and cut review time by 70%.</p>
+                <p><strong>Nov 2024 – Present</strong></p>
+            </div>
+            <div class="desc mt-4">
+                <h4>Data Science Engineer – Ignitz Solutions</h4>
+                <p>Developed NLP-powered job match and candidate screening tools. Reduced manual screening by ~40% using SpaCy and semantic similarity models.</p>
+                <p><strong>Jan 2022 – Jul 2023</strong></p>
+            </div>
+        </div>
+    </section>
 
-    <div class="container section">
-        <h2 class="text-center mb-4">Projects</h2>
-        <ul>
-            <li><a href="http://bit.ly/easy__results">Easy Results</a> – Academic score publishing system</li>
-            <li><a href="https://harisrujan.github.io/bannuscreations.io/">Bannu's Creations</a> – Portfolio design and creative works</li>
-        </ul>
-    </div>
+    <!-- Publications -->
+    <section class="section">
+        <div class="container">
+            <h2 class="display-4 text-center">Publications</h2>
+            <div class="desc">
+                <h4>ML for Smartphone-Based Diabetic Detection</h4>
+                <p>Journal of Algebraic Statistics, 2022 – Applied ML algorithms on medical datasets.</p>
+            </div>
+            <div class="desc mt-4">
+                <h4>LLMs in Toxicology: Opportunities & Challenges</h4>
+                <p>Public Health Toxicology, 2025 – Researched AI in toxicological risk assessment and regulation.</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="container section">
-        <h2 class="text-center mb-4">Publications</h2>
-        <ul>
-            <li>"ML for Diabetic Prediction" – Journal of Algebraic Statistics, 2022</li>
-            <li>"Future of LLMs in Toxicology" – Public Health Toxicology, 2025</li>
-        </ul>
-    </div>
+    <!-- Updated Volunteering -->
+    <section class="section">
+        <div class="container">
+            <h2 class="display-4 text-center">Latest Volunteering</h2>
+            <div class="desc">
+                <h4>Vice President – AIESEC in Tampere</h4>
+                <p>Led a team to run local marketing and youth empowerment campaigns across Finland.</p>
+                <p><strong>Apr 2023 – Sep 2024</strong></p>
+            </div>
+            <div class="desc mt-4">
+                <h4>Coordinator – MSR Club</h4>
+                <p>Organized 10+ social responsibility events and awareness drives for sustainability and mental health.</p>
+                <p><strong>Apr 2020 – May 2022</strong></p>
+            </div>
+        </div>
+    </section>
 
-    <div class="container section">
-        <h2 class="text-center mb-4">Volunteering</h2>
-        <ul>
-            <li><strong>Local VP</strong> – AIESEC Tampere (2023–2024)</li>
-            <li><strong>MSR Club Coordinator</strong> – Social campaigns & Earth Day (2020–2022)</li>
-        </ul>
-    </div>
-
-    <footer class="text-center py-4">
-        <p>Made with ❤️ by Harisrujan | <a href="mailto:harisrujan2605@gmail.com">Contact Me</a></p>
-    </footer>
 </body>
 </html>
