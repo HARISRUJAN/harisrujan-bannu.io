@@ -7,10 +7,20 @@
     <link rel="shortcut icon" href="./a.png" type="image/x-icon">
     <title>HARISRUJAN</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,114 +33,107 @@
     </nav>
 
     <div class="container">
-        <!-- Sections up to Skills stay the same -->
-
-        <!-- Add new skills -->
-        <div class="col-md-6 mt-3">
-            <div class="progress-wrap">
-                <h4>Natural Language Processing (NLP)</h4>
-                <div class="progress progress-style">
-                    <div class="progress-bar color-1" role="progressbar" style="width:80%"></div>
+        <section class="landing">
+            <div class="row vertical-center">
+                <div class="col-lg-8 text-left pb-5">
+                    <h1 class="display-3">HARISRUJAN</h1>
+                    <p class="lead pl-2">
+                        Working on Machine Learning Projects & Data
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center my-auto pb-5 rounded-circle">
+                    <img class="img-fluid rounded-circle" src="./bannu.jpeg" alt="Profile Picture">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="col-md-6 mt-3">
-            <div class="progress-wrap">
-                <h4>Streamlit & Dashboards</h4>
-                <div class="progress progress-style">
-                    <div class="progress-bar color-1" role="progressbar" style="width:75%"></div>
-                </div>
+        <!-- Experience Section -->
+        <section class="mt-5">
+            <h2 class="display-4">Experience</h2>
+            <div class="py-4">
+                <h4>Thesis Worker – GPT Lab, Tampere University, Finland</h4>
+                <p>Nov 2024 – Present</p>
+                <ul>
+                    <li>Built a multi-agent validation system using LLMs, RAG, and Digital Twins</li>
+                    <li>Achieved 85% validation accuracy compared to human stakeholders</li>
+                    <li>Developed an interactive Streamlit dashboard</li>
+                </ul>
             </div>
-        </div>
-
-        <div class="col-md-6 mt-3">
-            <div class="progress-wrap">
-                <h4>Azure & AWS Cloud</h4>
-                <div class="progress progress-style">
-                    <div class="progress-bar color-1" role="progressbar" style="width:70%"></div>
-                </div>
+            <div class="py-4">
+                <h4>Data Science Engineer – Ignitz Solutions, Hyderabad</h4>
+                <p>Jan 2022 – Jul 2023</p>
+                <ul>
+                    <li>Created a profile-job matching tool with 25% improved accuracy using SpaCy</li>
+                    <li>Developed an NLP-based candidate search engine</li>
+                </ul>
             </div>
-        </div>
+        </section>
 
-        <!-- Additions under Experience section -->
-        <section>
-            <h1 class="display-4 mt-5">Experience</h1>
-            <h1 class="bold-text bg-text">Profile</h1>
-            <div class="row d-flex">
-                <div class="col-md-10">
-                    <!-- Existing entries remain -->
+        <!-- Volunteering Section -->
+        <section class="mt-5">
+            <h2 class="display-4">Volunteering</h2>
+            <div class="py-4">
+                <h4>Local Committee Vice President – AIESEC in Tampere</h4>
+                <p>Apr 2023 – Sep 2024</p>
+                <ul>
+                    <li>Led a cross-functional team to deliver intercultural projects</li>
+                    <li>Organized multiple campus engagement and leadership events</li>
+                </ul>
+            </div>
+        </section>
 
-                    <div class="py-4">
-                        <div class="desc">
-                            <h4>THESIS WORKER</h4>
-                            <p><a>GPT LAB, TAMPERE UNIVERSITY – FINLAND</a></p>
-                        </div>
-                        <div><p>NOV 2024 – Present</p></div>
-                        <div>
-                            <li>Built a multi-agent validation system using LLMs, RAG, and Digital Twins to reduce requirement ambiguity by 60%+</li>
-                            <li>Simulated AI personas (Developer, Scrum Master, Product Manager) to mimic stakeholder reviews</li>
-                            <li>Achieved 85% validation accuracy compared to human stakeholders</li>
-                            <li>Reduced validation time by 70% using ISO/IEC/IEEE 29148:2018-based automation</li>
-                            <li>Developed Streamlit dashboard with interactive AI interface</li>
+        <!-- Projects Section -->
+        <section class="mt-5">
+            <h2 class="display-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="./result.JPG" alt="Easy Results">
+                        <div class="card-body">
+                            <h5 class="card-title">Easy Results</h5>
+                            <p class="card-text">An academic result portal simplifying result access for students and staff.</p>
+                            <a href="http://bit.ly/easy__results" class="btn btn-primary" target="_blank">View Project</a>
                         </div>
                     </div>
-
-                    <div class="py-4">
-                        <div class="desc">
-                            <h4>DATA SCIENCE ENGINEER</h4>
-                            <p><a>IGNITZ SOLUTIONS – HYDERABAD, INDIA</a></p>
-                        </div>
-                        <div><p>JAN 2022 – JULY 2023</p></div>
-                        <div>
-                            <li>Built profile-job matching tool using SpaCy; improved matching by 25%</li>
-                            <li>Developed NLP-based candidate search engine with natural language queries</li>
-                            <li>Reduced manual shortlisting time by 40% using automation pipelines</li>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="./bc.JPG" alt="Bannu's Creations">
+                        <div class="card-body">
+                            <h5 class="card-title">Bannu's Creations</h5>
+                            <p class="card-text">A personal website showcasing creative and technical web development work.</p>
+                            <a href="https://harisrujan.github.io/bannuscreations.io/" class="btn btn-primary" target="_blank">Visit Site</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Additions under Volunteering section -->
-        <section>
-            <h1 class="display-4 mt-5">Volunteering</h1>
-            <h1 class="bold-text bg-text">Community</h1>
-            <div class="row d-flex">
-                <div class="col-md-10">
-                    <div class="py-4">
-                        <div class="desc">
-                            <h4>LOCAL COMMITTEE VICE PRESIDENT</h4>
-                            <p><a>AIESEC IN TAMPERE</a></p>
-                        </div>
-                        <div><p>APR 2023 – SEP 2024</p></div>
-                        <div>
-                            <li>Led a team of 6 in running cross-cultural marketing campaigns</li>
-                            <li>Trained and mentored new members through hands-on leadership</li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Additions under Certification section -->
-        <section>
-            <h1 class="display-4 mt-5">Certification</h1>
-            <h1 class="bold-text bg-text">Badges&Certificates</h1>
-            <div class="py-4">
-                <div class="desc">
-                    <h4>JOURNAL PUBLICATION</h4>
-                    <p><a href="https://publishoa.com/index.php/journal/article/view/256/231">ML for Early Detection of Diabetes (Journal of Algebraic Statistics)</a></p>
-                </div>
-                <div><p>JUNE 2022</p></div>
-            </div>
-            <div class="py-4">
-                <div class="desc">
-                    <h4>PUBLIC HEALTH TOXICOLOGY</h4>
-                    <p><a href="https://www.publichealthtoxicology.com/pdf-202241-123037?filename=The%20future%20of%20large.pdf">Future of LLMs in Toxicological Risk Assessment</a></p>
-                </div>
-                <div><p>2025</p></div>
-            </div>
+        <section class="text-center mt-5 mb-5">
+            <h2 class="display-4">Stay Connected</h2>
+            <p>Feel free to connect with me on social media</p>
+            <ul class="list-inline mt-3">
+                <li class="list-inline-item">
+                    <a href="mailto:bannusrujan2605@gmail.com" target="_blank">
+                        <ion-icon name="mail-outline" size="large"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/HARISRUJAN" target="_blank">
+                        <ion-icon name="logo-github" size="large"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/harisrujan2605/" target="_blank">
+                        <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/bannu2605" target="_blank">
+                        <ion-icon name="logo-twitter" size="large"></ion-icon>
+                    </a>
+                </li>
+            </ul>
         </section>
     </div>
 
